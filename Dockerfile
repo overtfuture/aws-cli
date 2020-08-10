@@ -4,6 +4,7 @@ RUN apt update
 RUN apt install -y \
         unzip \
         curl \
+        less \
         sudo
 
 WORKDIR /app
